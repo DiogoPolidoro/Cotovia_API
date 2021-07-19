@@ -186,9 +186,9 @@ class App extends React.Component {
               <div className="container">
                 <hr />
                 <h4>Tabela de fotografias</h4>
-                {/* Tabela5 tem um 'parâmetro de entrada', chamado 'inDadosFotos'.
-                Neste caso, está a receber o array JSON com os dados das fotos dos Cães,
-                lidos da API */}
+                {/* Tabela tem um 'parâmetro de entrada', chamado 'inDadosFotos'.
+                Neste caso, está a receber o array JSON com os dados das fotos,
+                lidas da API */}
                 <Tabela inDadosFotos={fotos} />
               </div>
             </div>

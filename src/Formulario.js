@@ -23,11 +23,10 @@ class Formulario extends React.Component {
     }
 
     /**
-     * processar os dados fornecidos pelo utilizador na escolha de um cão
+     * processar os dados fornecidos pelo utilizador na escolha de uma foto
      * @param {*} evento - id do cão que o utilizador seleciona
      */
     handlerFotografoChange = (evento) => {
-        //neste sítio poderia ser efetuado algum tipo de validação dos id do cão escolhido...
 
         // guardar os dados recolhidos pelo <select></select>
         this.setState({
@@ -37,11 +36,10 @@ class Formulario extends React.Component {
 
 
     /**
-     * processar os dados fornecidos pelo utilizador no upload da foto do cão
+     * processar os dados fornecidos pelo utilizador no upload da foto
      * @param {*} evento - dados adicionados pelo utilizador
      */
     handlerFotoChange = (evento) => {
-        //neste sítio poderia ser efetuado algum tipo de validação da foto escolhida...
 
         // guardar os dados recolhidos pelo <select></select>
         this.setState({
@@ -104,7 +102,7 @@ class Formulario extends React.Component {
     }
 
     render() {
-        // ler os dados que foram/são fornecidos à Tabela5,
+        // ler os dados que foram/são fornecidos à Tabela,
         // como parâmetro de entrada/saída
 
         return (
