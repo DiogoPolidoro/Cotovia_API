@@ -192,6 +192,9 @@ class App extends React.Component {
                 <Tabela inDadosFotos={fotos} />
               </div>
             </div>
+            <div class="container">
+            &copy; 2020/2021 - TI2 - Cotovia - <a href="https://www.linkedin.com/in/ana-ribeiro-560bb4214/" class="linkext">Ana Ribeiro nº:21283</a> e <a href="https://www.linkedin.com/in/diogo-polidoro-30610a215/" class="linkext">Diogo Polidoro nº:20752</a> - <a href="http://www.ipt.pt/" class="linkext">IPT</a>
+          </div><br></br>
           </div>
         );
       default:
